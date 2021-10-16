@@ -1,0 +1,23 @@
+.slider-wrapper {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  padding: 3rem 0;
+}
+
+.slide {
+  display: none;
+  margin: 0 auto;
+}
+
+.slide.active {
+  display: block;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.slider-img {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+}
