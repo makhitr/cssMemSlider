@@ -24,7 +24,7 @@ body {
 
 .slides-wrapper .slides {
   width: 400%;
-  left: 0;
+  left: 1.5%;
   padding-left: 0;
   padding-top: 1em;
   overflow: hidden;
@@ -167,8 +167,17 @@ body {
     padding: 2em 0;
   }
 
+  .slides-wrapper .slides {
+    left: .4%;
+    height: 8vh;
+  }
+
   .slides-wrapper li img {
     width: 18em;
     margin: 0 auto;
+  }
+
+  .slides-nav {
+    flex-direction: column;
   }
 }
