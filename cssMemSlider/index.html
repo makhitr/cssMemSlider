@@ -3,67 +3,58 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
 </head>
 
 <body>
-  <div class="wrapper">
-    <div class="slider-wrapper">
-      <div class="slides">
-        <input type="radio" name="slides" id="radio1" checked>
-        <input type="radio" name="slides" id="radio2">
-        <input type="radio" name="slides" id="radio3">
-        <input type="radio" name="slides" id="radio4">
-        <input type="radio" name="slides" id="radio5">
-        <input type="radio" name="slides" id="radio6">
-        <input type="radio" name="slides" id="radio7">
-        <ul>
-          <li class="slide">
-            <img src="./assets/image/image1.jpg" class="slider-img" alt="image">
-          </li>
-          <li class="slide ">
-            <img src="./assets/image/image2.jpg" class="slider-img" alt="image">
-          </li>
-          <li class="slide ">
-            <img src="./assets/image/image3.jpg" class="slider-img" alt="image">
-          </li>
-          <li class="slide">
-            <img src="./assets/image/image4.jpg" class="slider-img" alt="image">
-          </li>
-          <li class="slide">
-            <img src="./assets/image/image5.jpg" class="slider-img" alt="image">
-          </li>
-          <li class="slide">
-            <img src="./assets/image/image6.jpg" class="slider-img" alt="image">
-          </li>
-          <li class="slide">
-            <img src="./assets/image/image7.jpg" class="slider-img" alt="image">
-          </li>
-        </ul>
-      </div>
-      <div class="slider-pagination">
-        <div class="slider-text active">Там опять про нас мемы!</div>
-        <div class="slider-text">И не стыдно тебе, а?</div>
-        <div class="slider-text">Будешь плохим примером?</div>
-        <div class="slider-text">Давайте!</div>
-        <div class="slider-text">Работы на полчаса</div>
-        <div class="slider-text">О, нет!</div>
-        <div class="slider-text">Встану пораньше..</div>
-        <div class="dots-wrapper">
-          <label for="radio1" id="dot1" class="dot"></label>
-          <label for="radio2" id="dot2" class="dot"></label>
-          <label for="radio3" id="dot3" class="dot"></label>
-          <label for="radio4" id="dot4" class="dot"></label>
-          <label for="radio5" id="dot5" class="dot"></label>
-          <label for="radio6" id="dot6" class="dot"></label>
-          <label for="radio7" id="dot7" class="dot"></label>
-        </div>
+
+  <div class="slides-wrapper">
+    <input type="radio" name="slides" id="radio-1" checked>
+    <input type="radio" name="slides" id="radio-2">
+    <input type="radio" name="slides" id="radio-3">
+    <input type="radio" name="slides" id="radio-4">
+    <ul class="slides">
+      <li class="slide">
+        <img src="./assets/image/image1.jpg">
+      </li>
+      <li class="slide">
+        <img src="./assets/image/image2.jpg">
+      </li>
+      <li class="slide">
+        <img src="./assets/image/image3.jpg">
+      </li>
+      <li class="slide">
+        <img src="./assets/image/image4.jpg">
+    </ul>
+    <div class="slides-nav">
+      <ul class="text-all">
+        <li class="text">
+          <p>Там опять про нас мемы!</p>
+        </li>
+        <li class="text">
+          <p>И не стыдно тебе, а?</p>
+        </li>
+        <li class="text">
+          <p>Будешь плохим примером?</p>
+        </li>
+        <li class="text">
+          <p>Давайте!</p>
+      </ul>
+      <div class="dots-wrapper">
+        <label for="radio-1" id="dotForRadio-1"></label>
+        <label for="radio-2" id="dotForRadio-2"></label>
+        <label for="radio-3" id="dotForRadio-3"></label>
+        <label for="radio-4" id="dotForRadio-4"></label>
       </div>
     </div>
   </div>
+
+
+
+
 </body>
 
 </html>
